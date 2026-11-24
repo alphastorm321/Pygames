@@ -52,9 +52,14 @@ while i<=40:
 
 ## Functions
 
-
-
 def greet(name):
     print("Greetings! "+name)
 
 greet("Mehdiya")
+
+## Lists
+
+Fruits=["Banna","Orange","Apple"]
+
+for f in Fruits:
+    print(Fruits[1])
