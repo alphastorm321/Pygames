@@ -63,3 +63,30 @@ Fruits=["Banna","Orange","Apple"]
 
 for f in Fruits:
     print(Fruits[1])
+
+## OOP
+
+class Cars:
+    vehicle="Car"
+    def __init__(self,type,brand):
+        self.type=type
+        self.brand=brand
+car1=Cars("Sedan","Toyota Camry")
+car2=Cars("SUV","Hyundai Elantra")
+
+print("Car type: ",car1.type)
+print("Car Brand: ",car1.brand)
+print("Car type: ",car2.type)
+print("Car Brand: ",car2.brand)
+
+# Game screen/pygame
+
+import pygame
+
+pygame.init()
+SCREEN_WIDTH,SCREEN_HEIGHT=800, 800
+
+display_surface=pygame.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
+pygame.display.set_caption("Practice.")
+
+background_img=pygame.transform.scale(pygame.image.load("wave.jpg"))
