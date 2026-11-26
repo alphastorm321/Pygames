@@ -79,14 +79,3 @@ print("Car Brand: ",car1.brand)
 print("Car type: ",car2.type)
 print("Car Brand: ",car2.brand)
 
-# Game screen/pygame
-
-import pygame
-
-pygame.init()
-SCREEN_WIDTH,SCREEN_HEIGHT=800, 800
-
-display_surface=pygame.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
-pygame.display.set_caption("Practice.")
-
-background_img=pygame.transform.scale(pygame.image.load("wave.jpg"))
